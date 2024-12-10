@@ -1,0 +1,12 @@
+@startuml
+class ejerciciosexcepciones2.Ej9
+class ejerciciosexcepciones2.EjerciciosExcepciones2
+class ejerciciosexcepciones2.MiArrayCopiador
+class ejerciciosexcepciones2.NotaMal
+class ejerciciosexcepciones2.SoloAceptoS
+class java.lang.Exception
+class java.util.Scanner
+ejerciciosexcepciones2.Ej9 ..> java.util.Scanner
+ejerciciosexcepciones2.NotaMal --|> java.lang.Exception
+ejerciciosexcepciones2.SoloAceptoS --|> java.lang.Exception
+@enduml
